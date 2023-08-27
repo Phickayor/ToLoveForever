@@ -20,7 +20,7 @@ function EventDetails() {
   ];
   return (
     <div className="py-10 mx-auto w-11/12">
-      <div className="mx-4 lg:mx-auto lg:w-10/12 grid lg:grid-cols-3 gap-8">
+      <div className="mx-4 lg:mx-12 grid md:grid-cols-3 gap-8">
         {events.map((event, index) => (
           <div
             key={index}
