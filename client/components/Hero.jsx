@@ -10,7 +10,7 @@ function Hero() {
     "/images/proposal.jpeg"
   ];
   return (
-    <div className="min-h-scree flex flex-col">
+    <div className="flex flex-col">
       <NavBar />
       <div className="text-center lg:text-left lg:px-20 p-5 flex flex-col justify-center">
         <h1 className="text-3xl md:text-5xl md:leading-[4rem] leading-[3rem] lg:text-7xl lg:leading-[6rem]">
