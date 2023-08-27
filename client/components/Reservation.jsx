@@ -4,7 +4,7 @@ function Reservation() {
   return (
     <div className="space-y-6 py-4">
       <div className="lg:space-y-2 mx-auto w-10/12 text-center ">
-        <h1 className="text-2xl lg:text-3xl">Make your Reservations</h1>
+        <h1 className="text-3xl font-semibold lg:text-4xl">Make your Reservations</h1>
         <p className="lg:text-lg">
           Input details to make your reservations and get your access card .
         </p>
