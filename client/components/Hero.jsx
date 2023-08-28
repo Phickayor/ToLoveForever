@@ -13,11 +13,7 @@ function Hero() {
     <div className="flex flex-col">
       <NavBar />
       <div className="text-center lg:text-left lg:px-20 p-5 flex flex-col justify-center">
-<<<<<<< HEAD
-        <h1 className="text-3xl font-light md:text-5xl md:leading-[4rem] leading-[3rem] lg:text-7xl lg:leading-[6rem]">
-=======
         <h1 className="text-3xl font-semibold md:text-5xl md:leading-[4rem] leading-[3rem] lg:text-7xl lg:leading-[6rem]">
->>>>>>> 3409ad8521ad95a50b43b47a22069b2605310aa5
           You are welcome to #Odun and Tobi's wedding Lots of love💗
         </h1>
       </div>

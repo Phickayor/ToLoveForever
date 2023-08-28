@@ -3,13 +3,8 @@ import React from "react";
 function Reservation() {
   return (
     <div className="space-y-6 py-4">
-<<<<<<< HEAD
       <div className="space-y-2 mx-auto w-10/12 text-center ">
         <h1 className="text-3xl lg:text-5xl">Make your Reservations</h1>
-=======
-      <div className="lg:space-y-2 mx-auto w-10/12 text-center ">
-        <h1 className="text-3xl font-semibold lg:text-4xl">Make your Reservations</h1>
->>>>>>> 3409ad8521ad95a50b43b47a22069b2605310aa5
         <p className="lg:text-lg">
           Input details to make your reservations and get your access card .
         </p>
