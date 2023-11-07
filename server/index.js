@@ -3,7 +3,7 @@ const app = express();
 const qr = require("qr-image");
 const fs = require("fs");
 
-const urlToLink = "https://shorturl.at/txNSZ"; // Replace this with your desired URL
+const urlToLink = "https://toloveforever.netlify.app"; // Replace this with your desired URL
 
 // Function to generate and save the QR code image
 const generateQRCode = () => {
