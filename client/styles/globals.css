@@ -4,7 +4,7 @@
 
 .scroll-container {
     display: flex;
-    animation: scrollAnimation 25s linear infinite;
+    animation: scrollAnimation 15s linear infinite;
 }
 
 @keyframes scrollAnimation {
