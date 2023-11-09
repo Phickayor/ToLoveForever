@@ -1,30 +1,53 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 function Hero() {
   var images = [
+    "/images/pic10.jfif",
     "/images/couple 1.jpeg",
+    "/images/pic2.jfif",
     "/images/Introduction.jpeg",
+    "/images/pic9.jfif",
+    "/images/pic1.jfif",
     "/images/couple 2.jpeg",
     "/images/casual.jpeg",
-    "/images/proposal.jpeg"
+    "/images/pic6.jfif",
+    "/images/pic3.jfif",
+    "/images/pic4.jfif",
+    "/images/pic8.jfif",
+    "/images/pic7.jfif"
   ];
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    element.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
+
   return (
-    <div className="flex flex-col">
-      <NavBar />
-      <div className="text-center lg:text-left lg:px-20 p-5 flex flex-col justify-center">
-        <h1 className="text-3xl md:text-5xl md:leading-[4rem] leading-[3rem] lg:text-7xl lg:leading-[6rem]">
-          You are welcome to #Odun and Tobi's wedding Lots of love💗
+    <div className="py-8">
+      <div className="mx-auto w-10/12">
+        <h1 className="text-4xl lg:text-8xl text-center">
+          Your are welcome to #Odunayo and Tobiloba's wedding Lots of love 💗
         </h1>
+        <div className="w-fit mx-auto  py-8 ">
+          <button
+            onClick={() => scrollToSection("gift-details")}
+            className="border-2 hover:scale-110 duration-300 border-black rounded-xl px-10 lg:px-20 py-2 lg:py-3 text-2xl lg:text-5xl"
+          >
+            Send a gift
+          </button>
+        </div>
       </div>
-      <div className="p-5 lg:p-10 flex  gap-8 overflow-x-auto">
-        {images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            className="max-h-48 lg:max-h-72 min-w-96 object-cover rounded-lg"
-          />
-        ))}
+      <div className="py-10  overflow-hidden">
+        <div className="scroll-container flex gap-8">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              className="min-w-[240px] lg:min-w-[285px] h-[250px] object-cover rounded-lg"
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

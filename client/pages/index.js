@@ -1,17 +1,17 @@
-import Image from "next/image";
-import { Inter, Italiana } from "next/font/google";
+import { Italiana } from "next/font/google";
 import Hero from "@/components/Hero.jsx";
 import EventDetails from "@/components/EventDetails";
-import Reservation from "@/components/Reservation";
-const inter = Inter({ subsets: ["latin"] });
+import NavBar from "@/components/NavBar";
+import Gifting from "@/components/Gifting";
 const italiana = Italiana({ weight: ["400"], subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className={`${italiana.className} py-4`}>
+      <NavBar />
       <Hero />
       <EventDetails />
-      <Reservation/>
+      <Gifting />
     </div>
   );
 }

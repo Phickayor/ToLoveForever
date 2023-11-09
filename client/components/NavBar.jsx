@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div className="flex justify-center gap-2 p-4">
       <img src="/images/ring.png" className="self-center w-14" />
-      <p className="self-center font-extralight">OdunayoandTobiloba</p>
+      <p className="self-center font-extralight">Odunayo&Tobiloba</p>
     </div>
   );
 }

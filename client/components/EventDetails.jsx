@@ -27,9 +27,9 @@ function EventDetails() {
             className="border-2 rounded-xl text-center lg:px-12 px-8 py-12 space-y-2 flex flex-col justify-center"
           >
             <img src="/images/bell.png" className="self-center" />
-            <h3 className="Font-medium text-2xl lg:text-3xl">{event.name}</h3>
+            <h3 className="text-2xl lg:text-3xl">{event.name}</h3>
             <div>
-              <p className="lg:text-lg">{event.date}</p>
+              <p>{event.date}</p>
               <p>{event.time}</p>
             </div>
           </div>
