@@ -3,19 +3,19 @@ import React from "react";
 function EventDetails() {
   var events = [
     {
-      name: "Odunayo and Tobi's Reception",
+      name: "Vow Ceremony",
       date: "Sat Nov 11, 2023",
-      time: "11:00am"
+      time: "12:00pm"
     },
     {
-      name: "Odunayo and Tobi's Reception",
+      name: "Reception Ceremony ",
       date: "Sat Nov 11, 2023",
-      time: "11:00am"
+      time: "2:00pm"
     },
     {
-      name: "Odunayo and Tobi's Reception",
+      name: "After Party",
       date: "Sat Nov 11, 2023",
-      time: "11:00am"
+      time: "6:00pm"
     }
   ];
   return (
