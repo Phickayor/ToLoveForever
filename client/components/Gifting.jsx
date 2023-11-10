@@ -8,10 +8,13 @@ function Gifting() {
       </div>
       <form className="mx-auto w-10/12 lg:w-8/12 bg-[#EDEDED] flex flex-col justify-center py-10 space-y-8 text-xl lg:text-2xl text-center lg:text-left ">
         <div className="bg-[#D9D9D9] focus:outline-none p-4 px-10 mx-auto w-10/12">
-          Bank
+          Keystone Bank
         </div>
         <div className="bg-[#D9D9D9] focus:outline-none p-4 px-10 mx-auto w-10/12">
-          Account number and Name
+          6042887867
+        </div>
+         <div className="bg-[#D9D9D9] focus:outline-none p-4 px-10 mx-auto w-10/12">
+          JETAWO ODUNAYO AND TOBILOBA ODUWOLE
         </div>
       </form>
     </div>
